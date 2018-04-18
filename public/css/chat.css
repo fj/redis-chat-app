@@ -1,0 +1,95 @@
+#navbar {
+    background-color: #f8981d;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#channel-name {
+	display: inline-block;
+    color: #F0F8FF;
+	margin: 12px;
+}
+
+#connect {
+	display: inline-block;
+	width:100px; 
+	margin:10px;
+	font-size: 0.85rem;
+	float: right;
+}
+
+#disconnect {
+	display: inline-block;
+	width:100px; 
+	margin:10px;
+	font-size: 0.85rem;
+	float: right;
+}
+
+.members {
+    position: fixed;
+    top: 54px;
+    bottom: 0;
+    left: 0;
+    /*z-index: 1000;*/
+    z-index: -1;
+    /*padding: 20px;*/
+    /*overflow-x: hidden;*/
+    overflow: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+}
+
+.members-header {
+    background-color: #F5EDCD;
+    color: #545456;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.meessage-avatar {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+.members-group {
+    width: 100%;
+}
+
+.messages-header {
+    background-color: #EAF0E8;
+    color: #545456;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.messages-main {
+    height: 90vh;
+}
+
+.messages-body {
+    padding-top: 1rem;
+    overflow: auto;
+    height: 75vh;
+}
+
+.messages-footer {
+    padding-top: 1rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.list-group-item {
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+}
+.list-group-item:first-child {
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
