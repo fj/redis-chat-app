@@ -1,6 +1,5 @@
 applications:
 - name: redis-chat
   memory: 512M
-  buildpack: nodejs_buildpack
   services:
-  - pad-redis
+  - chat-db
